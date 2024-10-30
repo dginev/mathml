@@ -301,7 +301,7 @@ S                  := [ \t\n\r]*
      and compared using <a data-cite="INFRA#ascii-case-insensitive">ASCII case-insensitive</a>
      match.</p>
    <p>A concept is considered a <dfn id="intent_known_concept">known concept</dfn> (to the AT)
-     when the AT has any internal mapping recognizing that concept.
+     when the AT has any internal behavior recognizing that concept.
      It is also considered a <dfn id="intent_matched_concept"></dfn>matched concept</dfn> when
      its normalized name, the fixity property (which may be defaulted in the concept dictionary),
      and the arity (number of arguments, if any)
@@ -322,7 +322,7 @@ S                  := [ \t\n\r]*
      may also indicate different rendering choices.</p>
    <p>Otherwise, if the concept name, fixity and arity do not match it is considered to be an
      <dfn id="intent_unmatched_concept">unmatched concept</dfn> (to the dictionary).
-     If no additional mapping is available for that concept name,
+     If no additional behavior is available for that concept name,
      it is an <dfn id="intent_unknown_concept">unknown concept</dfn> (to the AT)
      and will be treated the same as a [=literal=];
      that is, the name is spoken as-is after normalizing each of `-`, `_` and `.` to an inter-word space.
